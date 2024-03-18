@@ -8,7 +8,7 @@ fn main() {
     println!("{} * {}",w,h);
     println!("{:?}",&cvec[..10]);
     
-    let d = 2u32;
+    let d = 2usize;
     let res Block::rotate(&mut cvec,d)
     println!("{:?}",&res[..10]);
  }
